@@ -2,20 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+
+.nav-link.active {
+  @apply text-blue-600 font-bold border-b-2 border-blue-600;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.cta-button {
+  @apply bg-gradient-to-r from-blue-700 to-blue-500 text-white px-6 py-3 rounded-md transition duration-300;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.cta-button:hover {
+  @apply from-blue-800 to-blue-600;
+}
+
+.cta-button-secondary {
+  @apply bg-gray-800 text-white px-6 py-3 rounded-md border border-white transition duration-300;
+}
+
+.cta-button-secondary:hover {
+  @apply bg-gray-700;
+}
+
+
+.mobile-nav-link {
+  @apply block px-6 py-3 hover:bg-blue-100 transition duration-300;
 }
