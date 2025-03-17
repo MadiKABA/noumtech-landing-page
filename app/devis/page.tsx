@@ -59,7 +59,7 @@ export default function DevisPage() {
         );
       }
     } catch (error) {
-      setSubmitMessage("Erreur lors de l'envoi de la demande.");
+      setSubmitMessage(`Erreur lors de l'envoi de la demande.${error}`);
     } finally {
       setIsSubmitting(false);
     }

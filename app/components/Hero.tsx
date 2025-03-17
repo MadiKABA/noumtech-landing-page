@@ -25,7 +25,7 @@ export default function Hero() {
           transition={{ duration: 1 }}
           className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight"
         >
-          L'innovation au service de votre succès
+          L&apos;innovation au service de votre succès
         </motion.h1>
 
         {/* Description avec animation */}

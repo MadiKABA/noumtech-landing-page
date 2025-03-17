@@ -209,13 +209,11 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="text-xl font-semibold text-white">Contact</h4>
             <ul className="space-y-2">
-              <li className="text-gray-400">
-                Email: contact@monentreprise.com
-              </li>
-              <li className="text-gray-400">Téléphone: +33 1 23 45 67 89</li>
-              <li className="text-gray-400">
-                Adresse: 123 Rue de l'Innovation, Paris, France
-              </li>
+              <li className="text-gray-400">Email: madikabagn@gmail.com</li>
+              <li className="text-gray-400">Téléphone: +224 621 51 56 55</li>
+              {/* <li className="text-gray-400">
+                Adresse: 123 Rue de l&apos;Innovation, Paris, France
+              </li> */}
             </ul>
           </div>
         </div>

@@ -14,7 +14,7 @@ const HowWeWorkSection = () => {
             <p className="text-xl text-gray-600 leading-relaxed">
               Nous combinons créativité, expertise technique et collaboration
               pour créer des solutions sur mesure qui propulsent votre
-              entreprise vers l'avenir.
+              entreprise vers l&apos;avenir.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

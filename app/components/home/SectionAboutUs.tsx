@@ -64,7 +64,7 @@ const AboutUs = () => {
               </span>
               en offrant des solutions innovantes, adaptées aux réalités locales
               et internationales. Nous croyons en un monde où la technologie est
-              un moteur de croissance, d'innovation et de compétitivité.
+              un moteur de croissance, d&apos;innovation et de compétitivité.
             </p>
 
             {/* Bouton "Contactez-nous" avec fond dégradé */}
