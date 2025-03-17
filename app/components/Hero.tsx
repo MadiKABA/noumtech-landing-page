@@ -7,7 +7,7 @@ export default function Hero() {
     <section
       className="relative w-full h-screen flex items-center justify-center text-center px-4 sm:px-6 md:px-12 lg:px-20"
       style={{
-        backgroundImage: "url('/images/hero-bg.png')", // Image de fond
+        backgroundImage: "url('/images/hero-bg1.jpg')", // Image de fond
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",

@@ -35,7 +35,7 @@ const AboutUs = () => {
           <motion.div className="w-full lg:w-1/2 relative" variants={fadeInUp}>
             <div className="relative h-64 lg:h-96 rounded-2xl overflow-hidden border-4 border-white shadow-sm">
               <Image
-                src="/images/about-us.jpg" // Remplacez par le chemin de votre image
+                src="/images/about.jpg" // Remplacez par le chemin de votre image
                 alt="Noumtech - Qui nous sommes"
                 layout="fill"
                 objectFit="cover"
@@ -50,24 +50,23 @@ const AboutUs = () => {
               Qui nous sommes
             </h2>
             <p className="text-lg text-gray-700">
-              Chez <span className="font-bold text-black">Noumtech</span>, nous
-              sommes bien plus qu’une entreprise digitale – nous sommes les
-              architectes de votre réussite numérique. Basés au Sénégal, nous
-              sommes une équipe dynamique et passionnée, spécialisée dans le
-              développement de logiciels, la conception de sites web, le
-              marketing digital et la consultation technologique.
+              Chez <span className="font-bold text-black">Noumtech</span>,nous
+              sommes les architectes de votre succès numérique. Basés au Guinée,
+              notre équipe passionnée se spécialise dans le développement de
+              logiciels, la création de sites web, le marketing digital et la
+              consultation technologique.
             </p>
             <p className="text-lg text-gray-700">
               Notre mission est claire :{" "}
-              <span className="font-bold text-black">
-                accompagner les entreprises et entrepreneurs africains dans leur
+              <span className="font-bold text-black mr-1">
+                accompagner les entreprises et entrepreneurs dans leur
                 transformation numérique
               </span>
-              , en leur offrant des solutions innovantes, adaptées à leurs
-              besoins et aux réalités du marché local et international. Chez
-              Noumtech, nous croyons en une Afrique où la technologie devient un
-              levier de croissance, d’innovation et de compétitivité.
+              en offrant des solutions innovantes, adaptées aux réalités locales
+              et internationales. Nous croyons en un monde où la technologie est
+              un moteur de croissance, d'innovation et de compétitivité.
             </p>
+
             {/* Bouton "Contactez-nous" avec fond dégradé */}
             <motion.div
               className="mt-6"

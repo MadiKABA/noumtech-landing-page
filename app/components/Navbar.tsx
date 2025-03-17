@@ -4,6 +4,7 @@ import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
+import Image from "next/image"; // Import du composant Image de Next.js
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -33,12 +34,19 @@ const Navbar = () => {
       } fixed w-full top-0 z-50 transition-all duration-300 md:px-6`}
     >
       <div className="container mx-auto flex justify-between items-center py-4 px-6">
-        {/* Logo à gauche */}
-        <Link
-          href="/"
-          className="text-2xl font-bold text-blue-600 flex items-center"
-        >
-          <img src="/logo/logo-noumtech.png" alt="Noumtech Logo" className="h-10 mr-2" />
+        {/* Logo à gauche avec le composant Image de Next.js */}
+        <Link href="/" className="flex items-center">
+          <div className="h-12 w-auto">
+            {" "}
+            {/* Augmente la taille du conteneur */}
+            <Image
+              src="/logo/logo-noumtech.png"
+              alt="Noumtech Logo"
+              width={250}
+              height={100}
+              priority
+            />
+          </div>
         </Link>
 
         {/* Navigation Desktop */}
