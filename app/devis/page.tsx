@@ -66,7 +66,7 @@ export default function DevisPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center">
+    <div className="min-h-screen bg-gradient-to-r from-blue-50 to-orange-50 flex flex-col items-center justify-center pb-12">
       {/* Bannière d'image */}
       <div
         className="w-full h-64 bg-cover bg-center mb-8 rounded-lg shadow-lg"
