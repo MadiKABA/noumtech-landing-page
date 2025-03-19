@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import Link from "next/link";
 
 type Service = {
   id: number;
@@ -75,7 +76,10 @@ const ServicesSection: React.FC = () => {
   const [activeService, setActiveService] = useState<Service>(services[0]);
 
   return (
-    <section className="py-24 bg-gradient-to-b from-blue-50 to-blue-100 relative overflow-hidden">
+    <section
+      id="services"
+      className="py-24 bg-gradient-to-b from-blue-50 to-blue-100 relative overflow-hidden"
+    >
       <div className="absolute bottom-0 left-0 w-full h-20 bg-wave bg-cover bg-no-repeat"></div>
 
       <div className="container mx-auto px-8 lg:px-16 xl:px-24">
@@ -124,9 +128,11 @@ const ServicesSection: React.FC = () => {
               <p className="text-lg text-gray-800">
                 {activeService.description}
               </p>
-              <button className="bg-gradient-to-r from-blue-700 to-blue-500 text-white px-6 py-3 rounded-lg hover:from-blue-500 hover:to-blue-700 transition duration-300 shadow-lg hover:shadow-xl">
-                Demander un devis
-              </button>
+              <Link href="/devis">
+                <button className=" mt-7 bg-gradient-to-r from-blue-700 to-blue-500 text-white px-6 py-3 rounded-lg hover:from-blue-500 hover:to-blue-700 transition duration-300 shadow-lg hover:shadow-xl">
+                  Demander un devis
+                </button>
+              </Link>
             </div>
 
             {/* Image du service */}

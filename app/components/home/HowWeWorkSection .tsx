@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const HowWeWorkSection = () => {
   return (
-    <section className="py-32 bg-gradient-to-r from-blue-50 to-orange-50 text-gray-800">
+    <section id="contact" className="py-32 bg-gradient-to-r from-blue-50 to-orange-50 text-gray-800">
       <div className="container mx-auto px-6 md:px-12 lg:px-24">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
           {/* Partie Texte */}

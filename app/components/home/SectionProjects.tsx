@@ -55,7 +55,7 @@ const projects = [
 
 export default function SectionProjects() {
   return (
-    <section className="py-20 bg-gradient-to-r from-blue-50 to-purple-50 min-h-screen relative overflow-hidden px-4 sm:px-6 lg:px-24">
+    <section id="projects" className="py-20 bg-gradient-to-r from-blue-50 to-purple-50 min-h-screen relative overflow-hidden px-4 sm:px-6 lg:px-24">
       <div className="absolute inset-0 z-0 bg-pattern bg-repeat opacity-10"></div>
 
       <div className="container mx-auto text-center relative z-10">

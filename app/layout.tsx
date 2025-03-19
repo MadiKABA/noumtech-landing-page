@@ -15,9 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Noumtech - Architectes de votre Succès Numérique",
+  title: "Noumtech - Agence Digitale Innovante",
   description:
-    "Noumtech, basé en Guinée, est votre partenaire pour la transformation numérique. Nous offrons des solutions innovantes en développement de logiciels, création de sites web, marketing digital et consultation technologique. Découvrez notre mission et nos services.",
+    "Noumtech est une agence digitale en Guinée, spécialisée dans la création de sites web et d&apos;applications. Nous offrons des solutions sur mesure pour booster votre présence en ligne et accélérer votre transformation numérique. 🚀",
   icons: {
     icon: "/favicon.ico", // Chemin vers votre favicon
   },
@@ -33,26 +33,27 @@ export const metadata: Metadata = {
     "innovation numérique",
   ],
   openGraph: {
-    title: "Noumtech - Architectes de votre Succès Numérique",
+    title: "Noumtech - Agence Digitale Innovante",
     description:
-      "Noumtech, basé en Guinée, est votre partenaire pour la transformation numérique. Nous offrons des solutions innovantes en développement de logiciels, création de sites web, marketing digital et consultation technologique. Découvrez notre mission et nos services.",
+      "Noumtech est une agence digitale en Guinée, spécialisée dans la création de sites web et d&apos;applications. Nous offrons des solutions sur mesure pour booster votre présence en ligne et accélérer votre transformation numérique. 🚀",
     type: "website",
     url: "https://www.noumtech.com", // Remplacez par l'URL de votre site
     images: [
       {
-        url: "https://www.noumtech.com/logo/logo-noumtech.png", // Remplacez par l'URL de votre image OpenGraph
+        url: "/logo/logo-noumtech.png", // Remplacez par l'URL de votre image OpenGraph
         width: 1200,
         height: 630,
-        alt: "Noumtech - Architectes de votre Succès Numérique",
+        alt: "Noumtech - Agence Digitale Innovante",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Noumtech - Architectes de votre Succès Numérique",
+    title: "Noumtech - Agence Digitale Innovante",
     description:
-      "Noumtech, basé en Guinée, est votre partenaire pour la transformation numérique. Nous offrons des solutions innovantes en développement de logiciels, création de sites web, marketing digital et consultation technologique. Découvrez notre mission et nos services.",
-    images: ["https://www.noumtech.com/logo/logo-noumtech.png"], // Remplacez par l'URL de votre image Twitter
+      "Noumtech est une agence digitale en Guinée, spécialisée dans la création de sites web et d&apos;applications. Nous offrons des solutions sur mesure pour booster votre présence en ligne et accélérer votre transformation numérique. 🚀",
+
+    images: ["logo/logo-noumtech.png"], // Remplacez par l'URL de votre image Twitter
   },
 };
 

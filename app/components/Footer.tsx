@@ -79,7 +79,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Colonne 1 : Logo et description */}
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold text-blue-500">MonEntreprise</h3>
+            <h3 className="text-2xl font-bold text-blue-500">Noumtech</h3>
             <p className="text-gray-400">
               Nous transformons vos idées en solutions digitales innovantes.
             </p>
@@ -221,7 +221,7 @@ const Footer = () => {
         {/* Ligne de copyright */}
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-gray-400">
-            &copy; {new Date().getFullYear()} MonEntreprise. Tous droits
+            &copy; {new Date().getFullYear()} Noumtech. Tous droits
             réservés.
           </p>
         </div>

@@ -21,7 +21,7 @@ const staggerContainer = {
 
 const AboutUs = () => {
   return (
-    <div className="bg-white py-16">
+    <section id="about_us" className="bg-white py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section: Qui nous sommes avec image et animations */}
         <motion.div
@@ -83,7 +83,7 @@ const AboutUs = () => {
           </motion.div>
         </motion.div>
       </div>
-    </div>
+    </section>
   );
 };
 
